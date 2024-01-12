@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var number=+prompt("nhap vao 1 so bat ky");
+        var a=0;
+        var b=1;
+        var c=0;
+        var total=0;
+        if(number>0){
+        while(1==1){
+            a=b;
+            b=c;
+            c=a+b;
+            total=total+c;       
+            if(total<number){
+                console.log(c);
+            }else{
+                break;
+            }
+         }
+        }else{
+            console.log("khong hop le");
+        }
+    </script>
+</body>
+</html>

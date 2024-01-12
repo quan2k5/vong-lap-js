@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var number=+prompt("nhap vao so bat ky");
+        var total=1;
+        if(isNaN(number)){
+            console.log("khong hop le");
+        }else{
+            for(let i=2;i<=number;i++){
+                total*=i;     
+            }
+            console.log("giai thừa của",number,"là",total);
+        }
+    </script>
+</body>
+</html>

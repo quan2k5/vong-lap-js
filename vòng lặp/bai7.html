@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var total=0;
+        var a=+prompt("nhap vao  so bat ky");
+        for(let i=0;i<a;i++){
+            if(a%i==0){
+                total+=i;
+            }
+        }
+        if(total==a){
+            console.log("day la so hoan hao");
+        }else{
+            console.log("khong phai la so hoan hao");
+        }
+    </script>
+</body>
+</html>
